@@ -33,3 +33,7 @@ Nessa aula, aprendemos sobre o git e entendemos sobre versionamentos. Filipe mos
 Aprendemos sobre o status de arquivos "modified", que é o status que os arquivos ficam quando o alteramos, após isso, o status staged, que é um status de "pronto para ser 'enviado'" e por fim, o commit, que é o "envio" de fato do arquivo. Além disso, usamos os comandos
 git log --stat, que mostra o log das alterações de forma resumida e git status que mostra o status dos arquivo (staged, commit, modified), além disso, aprendemos sobre o status de "untracked", que são arquivos que nunca entraram no git para serem rastreados.
 Aprendemos ainda, sobre o .gitignore, que é um arquivo especial que é ignorado pelo git, mas ele TAMBÉM deve ser commitado.
+
+### 03.3
+
+Aprendemos a utilizar o git diff, que mostra as diferenças em versões diferentes de arquivos, além de entender sobre o caractere de quebra de linha '\n'.gi
