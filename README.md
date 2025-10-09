@@ -36,4 +36,8 @@ Aprendemos ainda, sobre o .gitignore, que é um arquivo especial que é ignorado
 
 ### 03.3
 
-Aprendemos a utilizar o git diff, que mostra as diferenças em versões diferentes de arquivos, além de entender sobre o caractere de quebra de linha '\n'.gi
+Aprendemos a utilizar o git diff, que mostra as diferenças em versões diferentes de arquivos, além de entender sobre o caractere de quebra de linha '\n'. Além disso, utilizamos o git commit --amend para "viajar no tempo" e alterar um commit anterior, como se ele nunca tivesse existido.
+
+### 04.1
+
+Inicialmente, aprendemos um pouco sobre as "linhas do tempo", ou branches, que usamos. Por padrão, o git usa a branch main, que é a principal, mas podemos criar novas branches e fazer "merge" se quisermos. 
