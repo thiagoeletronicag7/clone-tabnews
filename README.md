@@ -40,4 +40,8 @@ Aprendemos a utilizar o git diff, que mostra as diferenças em versões diferent
 
 ### 04.1
 
-Inicialmente, aprendemos um pouco sobre as "linhas do tempo", ou branches, que usamos. Por padrão, o git usa a branch main, que é a principal, mas podemos criar novas branches e fazer "merge" se quisermos. 
+Inicialmente, aprendemos um pouco sobre as "linhas do tempo", ou branches, que usamos. Por padrão, o git usa a branch main, que é a principal, mas podemos criar novas branches e fazer "merge" se quisermos. Com o "git push", aprendemos a "empurrar", ou "fazer upload" para o github da versão que quisermos dos nossos arquivos. Além disso, existe o "git pull", para fazer download
+
+### 04.2
+
+Aprendemos sobre como fazer commits de uma maneira mais fácil/rápida, apenas digitando -m à frente de git commit e entre aspas, digitando a mensagem do commit: git commit -m "mensagem" 
