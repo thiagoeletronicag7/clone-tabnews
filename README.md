@@ -1,10 +1,10 @@
 # clone-tabnews
-Projeto do curso curso.dev do Filipe Deschamps
 
+Projeto do curso curso.dev do Filipe Deschamps
 
 ## Aula 01
 
-Nessa aula, configuramos a versão do node js para lts/hydrogen. Além disso, criamos o arquivo .nvmrc e através dele, podemos rodar o comando nvm install e automaticamente, pegará a versão impressa nesse arquivo e realizará a instalação. Também rodamos o comando "nvm alias default  lts/hydrogen", que configura a versão padrão como a que queremos.
+Nessa aula, configuramos a versão do node js para lts/hydrogen. Além disso, criamos o arquivo .nvmrc e através dele, podemos rodar o comando nvm install e automaticamente, pegará a versão impressa nesse arquivo e realizará a instalação. Também rodamos o comando "nvm alias default lts/hydrogen", que configura a versão padrão como a que queremos.
 
 Obs: É necessário saltar uma linha no arquivo .nvmrc
 
@@ -20,11 +20,11 @@ Nessa aula, aprendemos um pouco sobre os protocolos, como o HTTP e o TCP, além 
 
 Começamos a aula criando uma pasta chamada pages e dentro dela, nosso arquivo index.js. Além disso, criamos uma função de teste no arquivo js.
 
-### DESAFIO 
+### DESAFIO
 
 O desafio proposto consiste em basicamente criar uma frase e enviar para alguém via url, no entanto, o desafio deve ser executado conforme adquirimos os conhecimentos técnicos necessários.
 
-### 03.1 
+### 03.1
 
 Nessa aula, aprendemos sobre o git e entendemos sobre versionamentos. Filipe mostrou como os neandertais faziam para versionar os códigos antigamente e na aula seguinte, mostrou um exemplo de jogo dos 7 erros para ilustrar o "diff". Além disso, explicou o funcionamento do blob, que armazena "pedaços" de algo e apenas "aponta" para um desse algo, caso alguma alteração seja feita, o "diff" pega apenas o item alterado e compara com o anterior, sem ter que ficar armazenando milhões de itens.
 
@@ -44,4 +44,4 @@ Inicialmente, aprendemos um pouco sobre as "linhas do tempo", ou branches, que u
 
 ### 04.2
 
-Aprendemos sobre como fazer commits de uma maneira mais fácil/rápida, apenas digitando -m à frente de git commit e entre aspas, digitando a mensagem do commit: git commit -m "mensagem" 
+Aprendemos sobre como fazer commits de uma maneira mais fácil/rápida, apenas digitando -m à frente de git commit e entre aspas, digitando a mensagem do commit: git commit -m "mensagem"

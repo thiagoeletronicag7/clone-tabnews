@@ -1,14 +1,14 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef } from "react";
 
 function criarFlorAnimada(container) {
-    const targetContainer = container || document.body;
-    if (!targetContainer) {
-        return;
-    }
-    targetContainer.innerHTML = '';
+  const targetContainer = container || document.body;
+  if (!targetContainer) {
+    return;
+  }
+  targetContainer.innerHTML = "";
 
-    if (!document.getElementById('estilos-flor')) {
-        const cssStyles = `
+  if (!document.getElementById("estilos-flor")) {
+    const cssStyles = `
             html, body {
                 height: 100%;
                 margin: 0;
@@ -157,61 +157,65 @@ function criarFlorAnimada(container) {
                 }
             }
         `;
-        const styleSheet = document.createElement("style");
-        styleSheet.id = 'estilos-flor';
-        styleSheet.innerText = cssStyles;
-        document.head.appendChild(styleSheet);
-    }
+    const styleSheet = document.createElement("style");
+    styleSheet.id = "estilos-flor";
+    styleSheet.innerText = cssStyles;
+    document.head.appendChild(styleSheet);
+  }
 
-    const wrapper = document.createElement('div');
-    wrapper.classList.add('flower-wrapper');
+  const wrapper = document.createElement("div");
+  wrapper.classList.add("flower-wrapper");
 
-    const flower = document.createElement('div');
-    flower.classList.add('flower');
+  const flower = document.createElement("div");
+  flower.classList.add("flower");
 
-    const stem = document.createElement('div');
-    stem.classList.add('stem');
-    flower.appendChild(stem);
+  const stem = document.createElement("div");
+  stem.classList.add("stem");
+  flower.appendChild(stem);
 
-    const leftLeaf = document.createElement('div');
-    leftLeaf.classList.add('leaf', 'left');
-    flower.appendChild(leftLeaf);
+  const leftLeaf = document.createElement("div");
+  leftLeaf.classList.add("leaf", "left");
+  flower.appendChild(leftLeaf);
 
-    const rightLeaf = document.createElement('div');
-    rightLeaf.classList.add('leaf', 'right');
-    flower.appendChild(rightLeaf);
+  const rightLeaf = document.createElement("div");
+  rightLeaf.classList.add("leaf", "right");
+  flower.appendChild(rightLeaf);
 
-    for (let i = 0; i < 8; i++) {
-        const petal = document.createElement('div');
-        petal.classList.add('petal');
-        petal.style.setProperty('--rotation', `${i * 45}deg`);
-        flower.appendChild(petal);
-    }
+  for (let i = 0; i < 8; i++) {
+    const petal = document.createElement("div");
+    petal.classList.add("petal");
+    petal.style.setProperty("--rotation", `${i * 45}deg`);
+    flower.appendChild(petal);
+  }
 
-    const center = document.createElement('div');
-    center.classList.add('center');
-    flower.appendChild(center);
+  const center = document.createElement("div");
+  center.classList.add("center");
+  flower.appendChild(center);
 
-    wrapper.appendChild(flower);
+  wrapper.appendChild(flower);
 
-    const message = document.createElement('div');
-    message.classList.add('message');
-    message.textContent = 'Isadora, Eu te amo <3';
-    wrapper.appendChild(message);
+  const message = document.createElement("div");
+  message.classList.add("message");
+  message.textContent = "Isadora, Eu te amo <3";
+  wrapper.appendChild(message);
 
-    targetContainer.appendChild(wrapper);
+  targetContainer.appendChild(wrapper);
 }
 
 export default function HomePage() {
-    const flowerContainerRef = useRef(null);
+  const flowerContainerRef = useRef(null);
 
-    useEffect(() => {
-        criarFlorAnimada(flowerContainerRef.current);
-    }, []);
+  useEffect(() => {
+    criarFlorAnimada(flowerContainerRef.current);
+  }, []);
 
-    return (
-        <main className="container-centralizado" ref={flowerContainerRef}>
-            {}
-        </main>
-    );
+  return (
+    <main className="container-centralizado" ref={flowerContainerRef}>
+      {}
+    </main>
+  );
+}
+
+function teste() {
+  console.log("Coé mano");
 }
